@@ -1,0 +1,23 @@
+{
+  "name": "ntotten-skills",
+  "displayName": "Nathan's Skills",
+  "version": "0.1.0",
+  "description": "A collection of Claude Code skills, including delegation of self-contained work to Kimi K3 on Fireworks AI.",
+  "author": {
+    "name": "Nathan Totten",
+    "email": "nathan@ntotten.com",
+    "url": "https://github.com/ntotten"
+  },
+  "homepage": "https://github.com/ntotten/skills",
+  "repository": "https://github.com/ntotten/skills",
+  "license": "MIT",
+  "keywords": ["skills", "kimi", "fireworks", "delegation", "llm"],
+  "userConfig": {
+    "FIREWORKS_API_KEY": {
+      "type": "string",
+      "title": "Fireworks API key",
+      "description": "API key from https://fireworks.ai/account/api-keys. Used by the delegate-to-kimi skill. Leave blank to use the FIREWORKS_API_KEY environment variable instead.",
+      "sensitive": true
+    }
+  }
+}
